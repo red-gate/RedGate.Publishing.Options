@@ -9,6 +9,7 @@ Option.None<int>();
 Option.FromNullable("42") == Option.Some("42") // True
 string value = null;
 Option.FromNullable(value) == Option.None<string>(); // True
+```
 
 ## Methods on `IOption<T>`
 

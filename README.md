@@ -15,10 +15,15 @@ Option.FromNullable(value) == Option.None<string>(); // True
 
 ### `IOption<TResult> Map<TResult>(Func<T, TResult> func)`
 
+If an instance of `Some`,
+applies `func` to the contained value,
+and returns the result in an new instance of `Some`.
+If `None`, returns `None`.
+
 ### `T ValueOrElse(T value)`
 
 Returns the contained value if an instance of `Some`,
-otherwise return `value`.
+otherwise returns `value`.
 
 ## License
 

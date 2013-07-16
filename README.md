@@ -20,6 +20,12 @@ applies `func` to the contained value,
 and returns the result in an new instance of `Some`.
 If `None`, returns `None`.
 
+### `void UseValue(Action<T> func)`
+
+If an instance of `Some`,
+applies `func` to the contained value.
+If `None`, do nothing.
+
 ### `T ValueOrElse(T value)`
 
 Returns the contained value if an instance of `Some`,

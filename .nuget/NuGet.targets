@@ -23,7 +23,7 @@
             <PackageSource Include="https://nuget.org/api/v2/" />
             <PackageSource Include="https://my-nuget-source/nuget/" />
         -->
-        <PackageSource Include="http://nuget.red-gate.com/api/v2" />
+        <PackageSource Include="https://nuget.org/api/v2/" />
     </ItemGroup>
 
     <PropertyGroup Condition=" '$(OS)' == 'Windows_NT'">
@@ -118,7 +118,7 @@
 
                     Log.LogMessage("Downloading latest version of NuGet.exe...");
                     WebClient webClient = new WebClient();
-                    webClient.DownloadFile("http://nuget.red-gate.com/nuget.exe", OutputFilename);
+                    webClient.DownloadFile("http://nuget.org/nuget.exe", OutputFilename);
 
                     return true;
                 }

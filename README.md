@@ -19,3 +19,7 @@ Option.FromNullable(value) == Option.None<string>(); // True
 
 Returns the contained value if an instance of `Some`,
 otherwise return `value`.
+
+## License
+
+[BSD 2-Clause](http://opensource.org/licenses/BSD-2-Clause)

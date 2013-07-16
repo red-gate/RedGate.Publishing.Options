@@ -8,6 +8,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An option type (aka Maybe type) for C#</description>
     <licenseUrl>http://opensource.org/licenses/BSD-2-Clause</licenseUrl>
+    <projectUrl>https://github.com/red-gate/RedGate.Publishing.Options</projectUrl>
   </metadata>
   <files>
     <file src="RedGate.Publishing.Options.dll" target="lib\net20" />
